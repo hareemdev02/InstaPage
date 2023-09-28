@@ -1,0 +1,23 @@
+.MobileStats {
+    padding: 6px 0;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dadada;
+    margin-top: 20px;
+
+    .stateBox {
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            text-align: center;
+            margin: 5px 0;
+        }
+
+        .bold {
+            font-weight: 600;
+        }
+    }
+}

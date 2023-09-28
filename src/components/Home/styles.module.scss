@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+.profile {
+    margin-top: 50px;
+
+    .profileHeader {
+        display: flex;
+
+        @media(min-width:768px) {
+            padding-left: 60px;
+        }
+    }
+
+
+    .roundWrapper {
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+
+        @media(max-width:767px) {
+            width: 120px;
+            height: 120px;
+        }
+
+        @media(max-width:599px) {
+            width: 77px;
+            height: 77px;
+        }
+
+        img {
+            width: 170px;
+            object-fit: cover;
+            object-position: center;
+            height: 170px;
+            border-radius: 50%;
+
+            @media(max-width:767px) {
+                width: 120px;
+                height: 120px;
+            }
+
+            @media(max-width:599px) {
+                width: 77px;
+                height: 77px;
+            }
+        }
+    }
+
+    .headerBtn {
+        padding-left: 70px;
+
+        @media(max-width:767px) {
+            padding-left: 30px;
+        }
+
+        @media(max-width:599px) {
+            padding-left: 20px;
+        }
+
+        p {
+            margin: 0;
+
+            span {
+                font-family: 'Inter', sans-serif;
+                font-weight: 900;
+            }
+
+        }
+
+        button {
+            border: none;
+            background-color: #f2f2f2;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #dadada;
+            }
+        }
+    }
+
+    .headerBtnMobile {
+        p {
+            margin: 0;
+
+            span {
+                font-family: 'Inter', sans-serif;
+                font-weight: 900;
+            }
+
+        }
+
+        button {
+            border: none;
+            background-color: #f2f2f2;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #dadada;
+            }
+        }
+    }
+
+    .name {
+        p {
+            font-family: 'Inter', sans-serif;
+            font-weight: 900;
+            font-size: 14px;
+        }
+    }
+}
